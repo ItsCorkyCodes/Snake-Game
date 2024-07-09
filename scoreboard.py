@@ -38,9 +38,3 @@ class Scoreboard(Turtle):
     def give_point(self):
         self.score += 1
         self.update_scoreboard()
-
-    # def game_over(self):
-    #     self.goto(0, 0)
-    #     self.write("Game Over.", True, "center", ("Futura", 20, "bold"))
-    #     self.goto(0, -40)
-    #     self.write("Click Screen and Run Again to Retry", True, "center", ("Futura", 16, "normal"))
